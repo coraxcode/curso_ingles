@@ -1,0 +1,101 @@
+FLUENT — CURSO DE IDIOMAS EM FRASES (INGLÊS AMERICANO A1 → C2 + PACOTES DE OUTROS IDIOMAS)
+=========================================================================================
+
+ARQUIVOS
+- fluent_ingles.html ........ o aplicativo completo. Abra no navegador (celular ou computador). Funciona offline: frases, textos,
+                              fontes e código estão dentro do arquivo. O curso de inglês americano vem embutido.
+- ingles_frases.json ........ o curso de inglês, editável: 8.000 frases, 46 textos e diálogos, 22 propostas de redação,
+                              12 contrastes de som e a lista "Eu consigo" por nível.
+- curso_frances.json ........ pacote de FRANCÊS (3.000 frases A1–C2, 8 textos e diálogos, 6 redações, 10 contrastes de som,
+                              guia de fala rápida, conectores). Carregue em Perfil › Idiomas › Carregar curso (.json).
+- fonte/ .................... código-fonte, dados e testes automáticos (veja "Para desenvolvedores").
+
+COMO USAR
+1. Abra fluent_ingles.html em um navegador atualizado (Chrome, Edge, Safari, Samsung Internet). Funciona em celulares e computadores
+   de 2020 em diante. No celular, adicione à tela inicial para abrir como app.
+2. Escolha seu nível (do zero ao C2) e sua meta diária.
+3. Em Perfil › Estudo, ative o PLANO DE FLUÊNCIA (6 meses recomendado). O app calcula quantas frases novas por dia você precisa,
+   mostra o ritmo na Trilha e, ao fim de cada lição, oferece a próxima até a cota do dia.
+4. Todo dia: lições na trilha (5 frases novas cada) + a aba "Revisar". Revisões em dia valem mais do que frases novas.
+5. Na aba "Praticar", treine as quatro habilidades: ouvir e ler (textos, Modo rádio, ditado), falar (conversas por papéis,
+   shadowing), escrever (redação com correção), sons (pares mínimos com várias vozes) e velocidade (Relâmpago).
+6. Aba "Missões": 3 missões diárias, 2 semanais, baú, loja e temas.
+
+O QUE HÁ DE NOVO NESTA VERSÃO
+- 8.000 frases de inglês americano (antes 3.695): +4.300 frases novas em todos os níveis, com foco em conversa real de séries,
+  phrasal verbs, expressões idiomáticas, trabalho, notícias e fala rápida (campo "na fala rápida"). O curso cobre 94% das
+  1.000 palavras mais frequentes do inglês e 83% das 3.000 mais frequentes.
+- MULTI-IDIOMA: o app agora é independente da língua. Qualquer pacote .json no formato descrito abaixo vira um curso completo
+  (trilha, revisões FSRS, missões, textos, redações, sons), com progresso separado por idioma. Um pacote de francês com
+  3.000 frases acompanha o app; latim, espanhol, italiano e alemão já têm perfil de língua pronto (voz, números, palavras vazias).
+- TENTAR ANTES DE VER (pré-teste / efeito de geração): cada frase nova aparece primeiro em português, para você arriscar como
+  se diz, e só depois é revelada e falada. Desligável em Perfil › Estudo.
+- DO FIM AO COMEÇO (backchaining): botão nas frases novas que monta a frase de trás para a frente, preservando a entonação final.
+- META DE LEMBRANÇA: o FSRS agora aceita 85%, 90% ou 95% de retenção, mudando os intervalos de revisão.
+- PLANO DE FLUÊNCIA: 3, 6, 9 ou 12 meses. Cota diária de frases novas, tempo estimado por dia, projeção de término pelo ritmo
+  dos últimos 7 dias e encadeamento de lições.
+- Desempenho: seleção de alternativas 1.000× mais rápida (com 8.000 frases); formas normalizadas pré-calculadas.
+- Seu progresso da versão anterior é mantido (mesma chave de armazenamento; as lições antigas continuam nas mesmas posições).
+
+A CIÊNCIA POR TRÁS (resumo; o app tem a versão completa em Perfil › Como o método funciona)
+- Quatro vertentes de Nation: entrada compreensível, produção, estudo de forma e fluência.
+- Blocos de linguagem (chunks): o curso ensina frases inteiras de alta frequência (Wray, 2002; Boers e Lindstromberg, 2012).
+- Repetição espaçada FSRS com retenção configurável e efeito de testagem (Roediger e Karpicke, 2006).
+- Pré-teste / efeito de geração: tentar antes de ver fixa mais (Kornell, Hays e Bjork, 2009; Potts e Shanks, 2014).
+- Backchaining para prosódia natural em frases longas.
+- Regra dos 85%: dificuldade adaptativa durante a lição (Wilson et al., 2019).
+- Treino fonético de alta variabilidade (HVPT): várias vozes e velocidades (Thomson, 2018).
+- Produção e "perceber a lacuna" (Swain, 1985; Schmidt, 1990): escrever e falar, depois comparar com um modelo.
+- Recompensa variável e autodeterminação: só se ganha recompensa com esforço real; sem anúncios nem compras.
+- Sono: revisar à noite e dormir consolida a memória.
+
+QUANTO TEMPO LEVA (referência realista)
+- Cambridge: B2 ≈ 500–600 h; C1 ≈ 700–800 h; C2 ≈ 1.000–1.200 h a partir do zero.
+- Terminar as 8.000 frases em 6 meses = cerca de 45 frases novas por dia, ~1 h/dia de app, mais imersão diária (séries, rádio,
+  podcasts, conversa real). O plano de fluência mostra se você está no ritmo. Nenhum curso garante nível em prazo fixo.
+
+SALVAMENTO E BACKUP
+- O progresso fica salvo no próprio navegador (um registro por idioma). Limpar os dados do navegador apaga o progresso.
+- Em Perfil › Seus dados: baixar, copiar e restaurar backup (o backup registra de qual curso é). Faça backup antes de trocar de aparelho.
+- Pacotes de idioma carregados ficam guardados no aparelho (IndexedDB); nada é enviado para a internet.
+
+ÁUDIO, MICROFONE E LIMITES
+- A voz é a do sistema (síntese de fala). Em Perfil › Voz, prefira vozes "Natural", "Neural", "Enhanced" ou "Premium".
+  Para outros idiomas, instale a voz correspondente no sistema (ex.: iPhone: Ajustes › Acessibilidade › Conteúdo Falado › Vozes).
+- O reconhecimento de fala funciona no Chrome, Edge e Safari (no Chrome usa internet). Sem microfone, tudo aceita digitação.
+- A correção de redação é baseada em regras (tamanho, conectivos, expressões, erros comuns); não substitui um professor.
+
+ADICIONAR FRASES AO CURSO ATIVO
+Perfil › Seus dados › Importar frases (.json). Formato:
+{"phrases":[
+  {"en":"How's it going?","pt":"Como vão as coisas?","level":"A2","topic":"Conversa","focus":"How's it going","note":"Cumprimento informal.","sound":""}
+]}
+Campos obrigatórios: a frase na língua-alvo (chave "en" ou o código da língua, ex. "fr") e "pt". Níveis: A1–C2 (padrão B1).
+
+CARREGAR OUTRO IDIOMA (PACOTE DE CURSO)
+Perfil › Idiomas › Carregar curso (.json). Formato mínimo:
+{
+ "schema": "fluent-course-v3", "id": "frances", "title": "Francês",
+ "language": "fr-FR", "translationLanguage": "pt-BR",
+ "phrases": [ {"fr": "Je voudrais un café.", "pt": "Eu queria um café.", "level": "A1", "topic": "Comida", "focus": "Je voudrais", "note": "..."} ]
+}
+Opcionais: texts, writing, pairs, cando, reductions, connectors, numbers, stopwords, immersionTips, lexicon (gerado por build.py).
+Limites: 20 mil frases e 12 MB por pacote. O arquivo é validado campo a campo; conteúdo malformado é descartado sem quebrar o app.
+Códigos de língua aceitos: qualquer código BCP-47 (fr-FR, la, es-ES, it-IT, de-DE...). Para a voz funcionar, o sistema precisa
+ter uma voz instalada nessa língua; sem voz, os exercícios de áudio são substituídos automaticamente por leitura e montagem.
+
+PARA DESENVOLVEDORES (pasta fonte/)
+- app/body.html, app/style.css, app/app.js ............ núcleo do app (JavaScript puro, sem bibliotecas).
+- app/mod_engage.js, mod_skills.js, mod_views.js ...... missões, loja e recompensas; textos, conversa, redação, sons e Relâmpago; telas.
+- data/course.json .................................... curso de inglês usado no build.
+- data/packs/frances.json ............................. pacote de francês (fonte editável, sem campos calculados).
+- build.py ............................................ gera dist/fluent_ingles.html, dist/ingles_frases.json e dist/curso_<pacote>.json
+    (calcula o léxico de frequência e o vocabulário de cada frase para cada idioma que a biblioteca wordfreq conhece).
+    Requisitos: Python 3 e   pip install wordfreq simplemma      Uso: python3 build.py
+- tests/ .............................................. testes automáticos com Playwright (pip install playwright; rode o build.py antes):
+    python3 tests/v2_main.py mobile|desktop     fluxo completo (48 verificações por aparelho)
+    python3 tests/v2_time_chaos.py time|chaos   viagem no tempo (sequência, protetor, revisões, missões) e cliques aleatórios
+    python3 tests/v3_edge.py                    casos-limite: dados danificados, backup, sem voz/microfone, teclado, telas pequenas, tema escuro
+    python3 tests/v4_lang.py                    pacotes de idioma (francês), plano de fluência, pré-teste, backchaining, retenção, desempenho
+- Fontes Bricolage Grotesque e Atkinson Hyperlegible, licença SIL Open Font License 1.1 (fonts/).
+- Modo de teste: abra o HTML com ?test no final do endereço (expõe window.__fl para automação).
